@@ -1,0 +1,9 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>IPL Auction - Cricket World</title><link rel="stylesheet" href="css/style.css"></head><body>
+<header><a class="logo" href="index.html">🏏 Cricket World</a></header><main class="page">
+<section id="teamSelect" class="panel"><h1>🔨 IPL Auction</h1><p class="hint">Choose your team. Three computer teams will compete against you.</p><div id="teams" class="team-grid"></div></section>
+<section id="auction" class="panel hidden"><div class="auction-head"><div>YOUR TEAM<strong id="teamName"></strong></div><div>PURSE<strong>₹<span id="purse">120</span> Cr</strong></div><div>BOUGHT<strong id="count">0</strong></div></div>
+<div class="opponents"><b>Computer opponents:</b> <span id="opponents"></span></div>
+<div class="player-card"><div id="category"></div><h1 id="player"></h1><p id="number"></p></div>
+<div class="bid-row"><button id="bid1">₹1 Cr</button><button id="bid2">₹2 Cr</button><button id="bid5">₹5 Cr</button><button id="bid10">₹10 Cr</button><button id="skip" class="skip">SKIP</button></div><p id="result" class="result-box"></p></section>
+<section id="summary" class="panel hidden"><h1>🏆 Auction Complete</h1><p id="summaryIntro"></p><div id="allTeams"></div><button id="newAuction">NEW AUCTION</button></section>
+</main><footer>Made by Khushant</footer><script src="js/auction.js"></script></body></html>
